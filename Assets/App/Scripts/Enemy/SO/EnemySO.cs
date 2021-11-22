@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new Enemy", menuName ="Enemy")]
+[CreateAssetMenu(fileName = "EnemyData", menuName = "ScriptableObjects/Enemy", order = 2)]
 public class EnemySO : ScriptableObject
 {
     [SerializeField] private float _health;
