@@ -17,6 +17,10 @@ public class Enemy : MonoBehaviour
         _health = data.Health;
     }
 
+    private void FixedUpdate()
+    {
+    }
+
     public void TakeDemage(float demage)
     {
         if (_health - demage < 0)

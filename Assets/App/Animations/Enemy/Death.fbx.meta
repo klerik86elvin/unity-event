@@ -21,7 +21,10 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Zombie:Neck1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -550,18 +553,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: zombie(Clone)
+    - name: zombie-1(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Zombie_Geo
-      parentName: zombie(Clone)
+      parentName: zombie-1(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Zombie:Hips
-      parentName: zombie(Clone)
+      parentName: zombie-1(Clone)
       position: {x: -0.0000000032997527, y: 0.991687, z: -0.00035474394}
       rotation: {x: -1.01911384e-16, y: -0.000000001608247, z: 0.00000005040407, w: 1}
       scale: {x: 1, y: 1, z: 1}

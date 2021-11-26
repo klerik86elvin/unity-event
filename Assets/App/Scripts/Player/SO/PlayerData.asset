@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   health: 100
+  coins: 200
+  weapon: {fileID: 11400000, guid: b61e899aff507d2489d5352fa7f3ac3a, type: 2}

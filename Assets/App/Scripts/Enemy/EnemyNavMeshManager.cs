@@ -16,7 +16,20 @@ public class EnemyNavMeshManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(playerTransform.position);
-        print(playerTransform.position);
+    }
+
+    private void FixedUpdate()
+    {
+        float dist = Vector3.Distance(transform.position, playerTransform.position);
+
+        if(dist < 15)
+        {
+            agent.SetDestination(playerTransform.position);
+            GetComponent<EnemyAnimation>().Run();
+        }
+        if(dist < 3)
+        {
+            GetComponent<EnemyAnimation>().Attack();
+        }
     }
 }

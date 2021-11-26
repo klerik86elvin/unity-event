@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295412a870b1b8c4c907941430647451, type: 3}
   m_Name: M16
   m_EditorClassIdentifier: 
-  price: 20
   demage: 10
-  icon: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 6975497155788886916, guid: 67f716418f7ba2146a845739c7782755, type: 3}
